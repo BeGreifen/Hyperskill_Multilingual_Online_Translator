@@ -29,7 +29,7 @@ def logger(func):
 
 @logger
 def stage1() -> None:
-
+    # steps need to solve stage 1
     target_language: str = input('Type "en" if you want to translate from French into English,'
                                  ' or "fr" if you want to translate from English into French:')
     if target_language != "en":
